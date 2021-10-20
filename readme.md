@@ -2,18 +2,23 @@
 
 sandbox to evaluate open source hydro data retrieval tools.
 
-libraries included:
-- `pygeohyrdo`
-- `well application`
-- `hydrofunctions`
-- `dataretrieval`
-- `ulmo`
+tools evaluated have some sort of ability to retrieve data from NWIS.
 
-sandbox is running with `python 3.9`, `ipython 7.28`, and `jupyterlab 3.2.1`.
+sandbox is running on PopOS with `python 3.9`, `ipython 7.28`, and `jupyterlab 3.2.1`.
+
+hydro tools:
+- [dataretrieval](https://github.com/USGS-python/dataretrieval)
+- [hydrofunctions](https://github.com/mroberge/hydrofunctions)
+- [pygeohyrdo](https://github.com/cheginit/pygeohydro)
+- [ulmo](ihttps://github.com/ulmo-dev/ulmo)
+- [well application](https://github.com/utah-geological-survey/WellApplication)
+
+additonal tools:
+- [pastas](https://github.com/pastas/pastas)
 
 ## set up
 
-`git@github.com:mlr07/hydro-tools.git`
+`git clone git@github.com:mlr07/hydro-tools.git`
 
 `cd hydro-tools`
 
@@ -27,6 +32,8 @@ sandbox is running with `python 3.9`, `ipython 7.28`, and `jupyterlab 3.2.1`.
 
 `python -m pytest --disable-warnings` (smoke test to check imports)
 
+`jupyter lab`
+
 ## TODO
 
 find NWIS sites to query against:
@@ -36,15 +43,19 @@ find NWIS sites to query against:
 
 in a jupyter notebook:
 
-- pull data for services and time delta with all tools
-- directly compare the returned data
-    - data match
+- pull data for services and at fixed time delta with all tools
+- directly compare returned data
+    - data match between tools
     - congruent data structures (dict, list, dataframe, array)
     - obvious and non obvious data processing
 - pull together integration examples
     - pastas resampling, interpolation, etc
     - convert to geopandas
     - mapping example
+- examine interfaces
+    - docstrings
+    - keyword arguements
+    - functions and capabilities
 
 update readme with links to repos
 
