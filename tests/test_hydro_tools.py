@@ -1,12 +1,12 @@
+import importlib
 import pytest
 
 import dataretrieval
 import hydrofunctions
+import pastas
 import pygeohydro
 import ulmo
 import wellapplication
-
-import importlib
 
 
 # module missing error types: ImportError, ModuleNotFound
@@ -21,6 +21,7 @@ def test_hydrofunctions():
     
     assert importlib.util.find_spec("dataretrieval")
     assert importlib.util.find_spec("hydrofunctions")
+    assert importlib.util.find_spec("pastas")
     assert importlib.util.find_spec("pygeohydro")
     assert importlib.util.find_spec("ulmo")
     assert importlib.util.find_spec("wellapplication")
