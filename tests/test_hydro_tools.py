@@ -1,10 +1,18 @@
+import pytest
+import importlib
+
 import hydrofunctions
 
 
-def test_hydrofunctions():
-    modules = dir()
-    print(modules)
-    assert "hydrofunctions" in modules
+# module missing error types: ImportError, ModuleNotFound
 
-if __name__ == "__main__":
-    print(dir())
+def test_hydrofunctions():
+    '''
+    confirm that hydrofunctions will load as a module
+    '''
+    assert importlib.util.find_spec("hydrofunctions")
+
+
+# mark as xfail
+def test_bokeh():
+    assert importlib.util.find_spec("bokeh")
