@@ -1,18 +1,27 @@
 import pytest
-import importlib
 
+import dataretrieval
 import hydrofunctions
+import pygeohydro
+import ulmo
+import wellapplication
+
+import importlib
 
 
 # module missing error types: ImportError, ModuleNotFound
 
 def test_hydrofunctions():
     '''
-    confirm that hydrofunctions will load as a module
+    confirm that all hydro tools will load as a modules.
+
+    this implies that all packages have been installed. 
+
     '''
+    
+    assert importlib.util.find_spec("dataretrieval")
     assert importlib.util.find_spec("hydrofunctions")
+    assert importlib.util.find_spec("pygeohydro")
+    assert importlib.util.find_spec("ulmo")
+    assert importlib.util.find_spec("wellapplication")
 
-
-# mark as xfail
-def test_bokeh():
-    assert importlib.util.find_spec("bokeh")
