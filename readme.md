@@ -10,7 +10,7 @@ hydro tools:
 - [dataretrieval](https://github.com/USGS-python/dataretrieval)
 - [hydrofunctions](https://github.com/mroberge/hydrofunctions)
 - [pygeohyrdo](https://github.com/cheginit/pygeohydro)
-- [ulmo](ihttps://github.com/ulmo-dev/ulmo)
+- [ulmo](https://github.com/ulmo-dev/ulmo)
 - [well application](https://github.com/utah-geological-survey/WellApplication)
 
 additonal tools:
