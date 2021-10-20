@@ -30,7 +30,7 @@ additonal tools:
 
 `pip install -r requirements.txt`
 
-`python -m pytest --disable-warnings` (smoke test to check imports)
+`python -m pytest` (test to check imports)
 
 `jupyter lab`
 
