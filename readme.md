@@ -16,6 +16,13 @@ hydro tools:
 additonal tools:
 - [pastas](https://github.com/pastas/pastas)
 
+## docs and links
+
+[hydrofunctions](https://hydrofunctions.readthedocs.io/en/master/index.html)
+[NWIS Help System](https://help.waterdata.usgs.gov/faq/automated-retrievals)
+[USGS Water Services](https://waterservices.usgs.gov/)
+[GAGES II](https://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml)
+
 ## set up
 
 `git clone git@github.com:mlr07/hydro-tools.git`
