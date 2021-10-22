@@ -6,17 +6,19 @@ tools evaluated have ability to retrieve data timeseries data from NWIS.
 
 sandbox is running on a linux box with `python 3.8` and `jupyter lab`.
 
+tools checked if they have been evaluated in `hydro-tools.ipynb`.
+
 hydro tools:
 
-- [dataretrieval](https://github.com/USGS-python/dataretrieval)
-- [hydrofunctions](https://github.com/mroberge/hydrofunctions)
-- [pygeohyrdo](https://github.com/cheginit/pygeohydro)
-- [ulmo](https://github.com/ulmo-dev/ulmo)
-- [well application](https://github.com/utah-geological-survey/WellApplication)
+- [x] [dataretrieval](https://github.com/USGS-python/dataretrieval)
+- [x] [hydrofunctions](https://github.com/mroberge/hydrofunctions)
+- [ ] [pygeohyrdo](https://github.com/cheginit/pygeohydro)
+- [ ] [ulmo](https://github.com/ulmo-dev/ulmo)
+- [ ] [well application](https://github.com/utah-geological-survey/WellApplication)
 
 additonal tools:
 
-- [pastas](https://github.com/pastas/pastas)
+- [ ] [pastas](https://github.com/pastas/pastas)
 
 ## docs and links
 
@@ -34,9 +36,9 @@ additonal tools:
 
 `cd hydro-tools`
 
-`python -m venv hydro`
+`python -m venv ~/env/hydro`
 
-`source bin/activate/hydro`
+`source ~/env/hydro/bin/activate/hydro`
 
 `sudo apt install libgdal-dev` (`pygeohydro` external requirement)
 
@@ -68,8 +70,6 @@ in a jupyter notebook:
     - docstrings
     - keyword arguements
     - functions and capabilities
-
-update readme with links to repos
 
 ???
 
