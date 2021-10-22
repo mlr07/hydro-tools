@@ -72,6 +72,3 @@ in a jupyter notebook:
     - functions and capabilities
     - modules, functions, classes, and objects
 
-???
-
-
