@@ -2,11 +2,12 @@
 
 sandbox to evaluate open source hydro data retrieval tools.
 
-tools evaluated have some sort of ability to retrieve data from NWIS.
+tools evaluated have ability to retrieve data timeseries data from NWIS.
 
-sandbox is running on PopOS with `python 3.9`, `ipython 7.28`, and `jupyterlab 3.2.1`.
+sandbox is running on a linux box with `python 3.8` and `jupyter lab`.
 
 hydro tools:
+
 - [dataretrieval](https://github.com/USGS-python/dataretrieval)
 - [hydrofunctions](https://github.com/mroberge/hydrofunctions)
 - [pygeohyrdo](https://github.com/cheginit/pygeohydro)
@@ -14,13 +15,17 @@ hydro tools:
 - [well application](https://github.com/utah-geological-survey/WellApplication)
 
 additonal tools:
+
 - [pastas](https://github.com/pastas/pastas)
 
 ## docs and links
 
 [hydrofunctions](https://hydrofunctions.readthedocs.io/en/master/index.html)
+
 [NWIS Help System](https://help.waterdata.usgs.gov/faq/automated-retrievals)
+
 [USGS Water Services](https://waterservices.usgs.gov/)
+
 [GAGES II](https://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml)
 
 ## set up
