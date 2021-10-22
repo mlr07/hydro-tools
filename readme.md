@@ -70,6 +70,7 @@ in a jupyter notebook:
     - docstrings
     - keyword arguements
     - functions and capabilities
+    - modules, functions, classes, and objects
 
 ???
 
