@@ -20,7 +20,8 @@ additonal tools:
 
 - [ ] [pastas ARMA](https://github.com/pastas/pastas)
 - [ ] [scipy interpolate](https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html)
-- [ ] [scikit spline](https://scikit-learn.org/stable/auto_examples/linear_model/plot_polynomial_interpolation.html?highlight=spline)
+- [ ] [bokeh time series plot](https://docs.bokeh.org/en/latest/)
+- [ ] [bottle single page app](http://bottlepy.org/docs/dev/index.html)
 
 ## docs and links
 
