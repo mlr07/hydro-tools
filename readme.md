@@ -16,8 +16,9 @@ hydro tools:
 - [ ] [ulmo](https://github.com/ulmo-dev/ulmo)
 - [ ] [well application](https://github.com/utah-geological-survey/WellApplication)
 
-additonal tools:
+integration with other tools:
 
+- [ ] [pandas to numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html)
 - [ ] [pastas ARMA](https://github.com/pastas/pastas)
 - [ ] [scipy interpolate](https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html)
 - [ ] [bokeh time series plot](https://docs.bokeh.org/en/latest/)
@@ -75,6 +76,7 @@ in a jupyter notebook and other places that make sense:
     - congruent data structures (dict, list, dataframe, array)
     - obvious and non obvious data processing
 - pull together integration examples
+    - json to pandas to numpy
     - pastas arma
     - scipy interpolation
     - scikit regeression
