@@ -32,6 +32,8 @@ integration with other tools:
 
 [USGS Water Services](https://waterservices.usgs.gov/)
 
+[USGS Parameter Codes](https://nwis.waterdata.usgs.gov/usa/nwis/pmc)
+
 [GAGES II](https://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml)
 
 [Fox River Gage](https://waterdata.usgs.gov/monitoring-location/040851385/#parameterCode=00065&period=P7D)
@@ -71,15 +73,14 @@ in a jupyter notebook and other places that make sense:
     - discharge
     - stage/head
 - pull data for services and at fixed time delta with all tools
+    - fox river river, gb streamgauge
+    - 10/15/2021-10/25/2021
+- compare request strings
 - directly compare returned data
     - data match between tools
+        -timestamps and data
     - congruent data structures (dict, list, dataframe, array)
     - obvious and non obvious data processing
-- pull together integration examples
-    - json to pandas to numpy
-    - pastas arma
-    - scipy interpolation
-    - scikit regeression
 - examine interfaces
     - docstrings
     - functions signatures
@@ -92,4 +93,10 @@ in a jupyter notebook and other places that make sense:
     - versioning and releases   
     - unit and intergration tests
     - pypi and conda downloads
+- pull together integration examples (maybe out of scope)
+    - json to pandas to numpy
+    - pastas arma
+    - scipy interpolation
+    - scikit regeression
+    - simple web app with bottle.py
 
