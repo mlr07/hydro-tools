@@ -1,4 +1,5 @@
 pytest
+matplotlib
 jupyterlab
 bokeh
 hydrofunctions
