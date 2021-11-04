@@ -18,7 +18,7 @@ hydro tools:
 
 integration with other tools:
 
-- [ ] [pandas to numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html)
+- [x] [pandas to numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html)
 - [ ] [pastas ARMA](https://github.com/pastas/pastas)
 - [ ] [scipy interpolate](https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html)
 - [ ] [bokeh time series plot](https://docs.bokeh.org/en/latest/)
@@ -64,24 +64,24 @@ integration with other tools:
 
 find NWIS sites to query against:
 
-- stream gauge: Fox River GB gauge
-- groundwater well
+- [x] Fox River GB strean gage
+- [_] groundwater well
 
 in a jupyter notebook and other places that make sense:
 
-- find data codes
+- [x] find data codes
     - discharge
     - stage/head
-- pull data for services and at fixed time delta with all tools
+- [x] pull data for services and at fixed time delta with all tools
     - fox river river, gb streamgauge
     - 10/15/2021-10/25/2021
-- compare request strings
-- directly compare returned data
+- [x] compare request strings
+- [x] directly compare returned data
     - data match between tools
         -timestamps and data
     - congruent data structures (dict, list, dataframe, array)
     - obvious and non obvious data processing
-- examine interfaces
+- [x] examine interfaces
     - docstrings
     - functions signatures
     - custom errors
