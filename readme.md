@@ -15,6 +15,8 @@ hydro tools:
 - [ ] [pygeohyrdo](https://github.com/cheginit/pygeohydro)
 - [ ] [ulmo](https://github.com/ulmo-dev/ulmo)
 - [ ] [well application](https://github.com/utah-geological-survey/WellApplication)
+- [ ] [climata]()https://github.com/heigeo/climata
+- [ ] [pydrograph](https://github.com/aleaf/pydrograph)
 
 integration with other tools:
 
@@ -37,6 +39,8 @@ integration with other tools:
 [GAGES II](https://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml)
 
 [Fox River Gage](https://waterdata.usgs.gov/monitoring-location/040851385/#parameterCode=00065&period=P7D)
+
+[Sand Dunes Well](https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=374012105410401)
 
 [PyPi analysis](https://packaging.python.org/guides/analyzing-pypi-package-downloads/)
 
@@ -62,17 +66,19 @@ integration with other tools:
 
 ## TODO
 
-find NWIS sites to query against:
+[x] find NWIS sites to query against:
 
-- [x] Fox River GB strean gage
-- [_] groundwater well
+- Fox River GB strean gage 040851385
+- Sand Dunes CO groundwater well 374012105410401
 
 in a jupyter notebook and other places that make sense:
+
+look at data:
 
 - [x] find data codes
     - discharge
     - stage/head
-- [x] pull data for services and at fixed time delta with all tools
+- [x] pull stream data for services and at fixed time delta with all tools
     - fox river river, gb streamgauge
     - 10/15/2021-10/25/2021
 - [x] compare request strings
@@ -81,19 +87,25 @@ in a jupyter notebook and other places that make sense:
         -timestamps and data
     - congruent data structures (dict, list, dataframe, array)
     - obvious and non obvious data processing
+- [ ] pull ground water data
+    - sand dunes, co groundwater well
+    - repeat checks for stream data
+
+look at code:
+
 - [x] examine interfaces
     - docstrings
     - functions signatures
     - custom errors
     - structure
     - modules, functions, classes, and objects
-- repo background   
+- [ ] repo background   
     - commits, issues, and branches
     - CI/CD
     - versioning and releases   
     - unit and intergration tests
     - pypi and conda downloads
-- pull together integration examples (maybe out of scope)
+- [ ] pull together integration examples (maybe out of scope)
     - json to pandas to numpy
     - pastas arma
     - scipy interpolation
